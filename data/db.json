@@ -1,0 +1,20 @@
+{
+    "reviews": [
+        {
+            "name": "Isuru Gajasinghe",
+            "body": "After making these adjustments, you should have better control over the alignment of your logo and text within the Navbar. If the issue persists, inspect the elements in your browser's developer tools to identify any unexpected styling or layout properties.",
+            "id": "1"
+        },
+        {
+            "name": "Manula Rathnayake",
+            "body": "It's possible that some default styles or margins from Bootstrap or your own styles are affecting the alignment. Consider adjusting the margin or padding for the logo or the .brand class.",
+            "id": "2"
+        },
+        {
+            "name": "Senadi Medis",
+            "body": "It's possible that some default styles or margins from Bootstrap or your own styles are affecting the alignment. Consider adjusting the margin or padding for the logo or the .brand class.",
+            "id": "3"
+        }
+
+    ]
+}

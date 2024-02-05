@@ -1,0 +1,20 @@
+.boxd {
+    background-color: blueviolet;
+    margin: 20px 20px 20px 0;
+    height: 200px;
+    width: 200px;
+    /* display: inline-block; */
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+}
+
+.card-image {
+    height: 140px;
+}
+
+/* .card {
+    height: 10%;
+} */

@@ -1,0 +1,44 @@
+.headd {
+    background-image: url('../images/bg.jpg');
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.greet {
+    color: aliceblue;
+    font-size: 2.5em;
+}
+
+ .bizimg {
+    height: 200px;
+    width: auto;
+    border-radius: 0;
+ }
+
+ .imagebooth {
+    justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        background-color: black;
+        height: 200px;
+ }
+
+ .cara {
+    width: 80%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+ }
+
+ .litm {
+    text-align: center;
+ }
+
+ .vendor-details {
+    padding: 20px;
+    height: 500px;
+ }

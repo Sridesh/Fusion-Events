@@ -1,0 +1,116 @@
+.login{
+    display: flex;
+    height: 100vh;
+}
+
+.half {
+    @media (max-width: 600px) {
+            display: inline;
+            width: 100%;
+        }
+
+}
+
+.photoh {
+    background-image: url('../images/bg.jpg');
+    height: auto;
+    width: 30%;
+    @media (max-width: 600px) {
+        display: inline;
+        height: 20%;
+        width: 100%;
+        justify-content: center;
+            display: flex;
+            align-items: center;
+    }
+        justify-content: center;
+        display: flex;
+        align-items: center;
+}
+
+.formh {
+    width: 70%;
+    background-color: lightgrey;
+    height: 100%;
+}
+
+.loglog {
+    height: 100%;
+    width: 50%;
+    @media(max-width: 800px){
+        height: 50%;
+        width: auto;
+    }
+    border-radius: 0;
+    max-width: 300px;
+    height: auto;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.subbtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    /* float: right; */
+}
+
+.btd {
+    justify-content: center;
+        align-items: center;
+        display: flex;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    form {
+        max-width: 100%;
+    }
+}
+
+.fwrap {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+}
+
+.f-inputs {
+    margin: 10px;
+}
+
+.rid {
+    margin-top: 20px;
+    justify-content: center;
+        align-items: center;
+        display: flex;
+}

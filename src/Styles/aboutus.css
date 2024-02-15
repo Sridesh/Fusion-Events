@@ -1,0 +1,168 @@
+.greeting {
+    text-align: center;
+    background-image: url("../images/bg.jpg");
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+    /* display: inline-flex; */
+}
+
+p {
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+}
+
+.slogan {
+    color: white;
+    font-size: 50px;
+}
+
+.content {
+    position: absolute;
+}
+
+.event {
+    text-align: center;
+    margin: 30px;
+}
+
+.carimg {
+    /* max-height: 500px; */
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.reviews {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+}
+
+.about-cont {
+    width: 100vw;
+    /* padding: 20px; */
+}
+
+.frst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 20px;
+}
+
+.fcont {
+    width: 50%;
+    height: 100%;
+}
+
+.p-cont {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.fcont > div {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+}
+
+.real {
+    height: 90%;
+    width: auto;
+    @media (max-width: 600px) {
+        height: auto;
+            width: 100%;
+    }
+    
+}
+
+.scnd {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: lightgrey;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 40px;
+        padding-right:40px;
+}
+
+.s-cont {
+    text-align: center;
+    /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+}
+
+.s-cont > p {
+    text-decoration: none;
+        font-size: 1rem;
+        color: black;
+}
+
+.p {
+    text-decoration: none;
+        font-size: 1rem;
+        color: black;
+}
+
+.thrd {
+    padding: 20px;
+}
+
+.t-cont {
+    width: 50%;
+    height: 100%;
+}
+
+.circ {
+    width: 100%;
+}
+
+.circ > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.frth {
+    margin: 20px 40px;
+    background: rgba(255, 255, 255, 0.7);
+    height: 300px;
+}
+
+.f-cont {
+    width: 25%;
+    margin: 20px 0 0 0;
+    border-radius: 0;
+    height: 100%;
+}
+
+.f-cont > img {
+    height: 60%;
+    width: auto;
+    @media (max-width: 800px) {
+        height: 60%;
+    }
+}
+
+body {
+    background-image: url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+        background-position: center;
+}

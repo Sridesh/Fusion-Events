@@ -1,49 +1,57 @@
-.login{
+.login {
     display: flex;
     height: 100%;
 }
 
 .half {
     @media (max-width: 600px) {
-            display: inline;
-            width: 100%;
-        }
+        display: inline;
+        width: 100%;
+    }
 
 }
 
 .photoh {
     background-image: url('../images/bg.jpg');
-    height: auto;
+    height: 100%;
     width: 30%;
-    @media (max-width: 600px) {
+
+    /* @media (max-width: 600px) {
         display: inline;
         height: 20%;
         width: 100%;
         justify-content: center;
-            display: flex;
-            align-items: center;
-    }
-        justify-content: center;
         display: flex;
         align-items: center;
+    } */
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .formh {
     width: 70%;
     height: 100%;
+    /* @media (max-width: 600px) {
+        width: 100%;
+        height: 80%;
+    } */
 }
 
-.loglog {
+/* .loglog {
     height: 100%;
     width: 50%;
-    @media(max-width: 800px){
+
+    @media(max-width: 800px) {
         height: 50%;
         width: auto;
     }
+
     border-radius: 0;
     max-width: 300px;
     height: auto;
-}
+} */
 
 .former {
     max-width: 400px;
@@ -81,8 +89,8 @@ input {
 
 .btd {
     justify-content: center;
-        align-items: center;
-        display: flex;
+    align-items: center;
+    display: flex;
 }
 
 button:hover {
@@ -110,11 +118,6 @@ button:hover {
 .rid {
     margin-top: 20px;
     justify-content: center;
-        align-items: center;
-        display: flex;
-}
-
-.linked-div {
-    text-decoration: underline;
-    color: blue;
+    align-items: center;
+    display: flex;
 }

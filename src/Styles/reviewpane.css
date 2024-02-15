@@ -1,0 +1,97 @@
+.search-div {
+    width: 20%;
+    display: flex;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: lightslategray;
+    border-style: solid;
+    margin: 10px;
+    width: 80%;
+}
+
+.search-div > input {
+    border-width: 0;
+    border-radius: 10px;
+    
+}
+
+.search-div > button {
+    border-width: 0;
+    border-radius: 10px;
+}
+
+.searchimage {
+    height: auto;
+    width: 70%;
+}
+
+.dpr{
+    width: 10%;
+    height: 100%;
+    padding: 10px;
+}
+
+.dpimg {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+    float: right;
+}
+
+.desr{
+    width: 70%;
+    padding: 10px;
+}
+
+.reply {
+    width: 20%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.reply > button {
+    background-color: transparent;
+    border-width: 0;
+    color: blue;
+}
+
+.review {
+    height: 100px;
+    background-color:#f4f4f4;
+}
+
+.chr{
+    width: 10%;
+        height: 100%;
+        padding: 10px;
+        display: grid;
+            justify-content: center;
+            align-items: center;
+}
+
+.dele {
+    width: 10%;
+        height: 100%;
+        padding: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-width: 0;
+}
+
+.delimg {
+    height: 20%;
+    width: auto;
+}
+
+.topr {
+    /* display: grid; */
+        justify-content: center;
+        align-items: center;
+}
+
+.unliked {
+    color: green;
+}

@@ -3,7 +3,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Axios from 'axios';
 
-function DropdownBtn({ onItemSelected }) {
+function DropdownBtn({ onItemSelected, title }) {
   const [images, setImages] = useState([]);
   const [selectedItemId, setSelectedItemId] = useState(null);
 
@@ -28,9 +28,9 @@ function DropdownBtn({ onItemSelected }) {
   };
 
   return (
-    <DropdownButton id="dropdown-basic-button" title="Dropdown button">
+    <DropdownButton id="dropdown-basic-button" title={title}>
       {images.map((image, index) => (
-        <Dropdown.Item key={index} onClick={handleItemClick} id={image.id}>
+        <Dropdown.Item key={index} onClick={handleItemClick} id={index}>
           {image.user.username}
         </Dropdown.Item>
       ))}

@@ -1,0 +1,29 @@
+.venue-profile {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.venue-profile h4 {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+.venue-details {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.venue-details h5 {
+    margin: 10px 0;
+    color: #555;
+}

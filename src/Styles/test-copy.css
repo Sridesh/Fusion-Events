@@ -1,0 +1,41 @@
+/* Add this CSS to your existing CSS file or create a new one */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 80vh; /* Set the maximum height to 80% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the maximum height */
+  }
+  
+  .popup button {
+    margin-top: 10px;
+  }
+  
+  .confirm-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    z-index: 1100; /* Higher z-index than the main popup */
+  }
+
+  .confirm-popup > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .confirm-popup button {
+    margin-top: 10px;
+    margin-right: 10px;
+    
+  }
+  

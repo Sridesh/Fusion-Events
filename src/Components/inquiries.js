@@ -27,7 +27,7 @@ const Inquiries = () => {
 
   return (
     <div className='popupdiv'>
-      <button onClick={() => setPopupVisibility(true)} className='popbtn         '>Inquiries</button>
+      <button onClick={() => setPopupVisibility(true)} className='popbtn         '>Inquire</button>
 
       {isPopupVisible && (
         <div className="popup-overlay">
@@ -77,7 +77,7 @@ const Inquiries = () => {
                 />
               </div>
               <div>
-                <button type="submit">Submit</button>
+                <button type="submit" className='subbtn'>Send</button>
               </div>
             </form>
           </div>
